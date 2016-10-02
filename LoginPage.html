@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/javascript" src="script.js">
+</head>
+<body>
+	<h1>Web Portal Login</h1>
+	<style type="text/css">
+		h1{
+			font-size: 75px;
+			text-align: center;
+		}
+		*{
+			font-family: cursive;
+			font-size: 16px;
+			border-color: blue;
+			position: relative;
+			text-decoration: none;
+			text-align: center;
+		}
+		button{
+			margin: -50px 0px 0px 0px;
+			top: 30px;
+		}
+		body{
+			background-color: pink;
+		}
+		#passFetch{
+			top: 150px;
+		}
+		#createAccount{
+			top: -25px;
+		}
+		p{
+			top: 100px;
+		}
+		.pass{
+			top: 60px;
+		}
+	</style>
+	<p>Do you not have an account yet? Not to worry make one here!</p>
+		<form id="form1" >
+			ID: 
+			<input type="text" id="id" name="idNumber">
+			Password: 
+			<input type="text" id="pass" name="passwords">
+		<input id="Login" type="submit" name="Login"> 
+		</form>
+		<a href="">
+			<button id="passFetch">Forgot Password?</button>
+		</a>
+		<p class="pass">If you do not remember your password click here!</p>
+		<a href="">
+			<button id="createAccount">Create Account</button>
+		</a>
+</body>
+</html>
